@@ -45,7 +45,7 @@ function montoTotal(data) {
 
 function mostrarInfo(data) {
   let arrayInfo = [];
-  for (i = 0; i < 4; i++) {
+  for (i = 0; i < 10; i++) {
     arrayInfo.push(data.serie[i]);
   }
   renderCanvas(arrayInfo);
